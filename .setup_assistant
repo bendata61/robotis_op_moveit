@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robotis_op_description
+    relative_path: urdf/darwin.urdf
+  SRDF:
+    relative_path: config/darwinOP.srdf
+  CONFIG:
+    generated_timestamp: 1440349500

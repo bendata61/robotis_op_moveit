@@ -1,0 +1,35 @@
+controller_list:
+  - name: fake_left_arm_controller
+    joints:
+      - j_shoulder_l
+      - j_high_arm_l
+      - j_low_arm_l
+      - j_wrist_l
+      - j_gripper_l
+  - name: fake_right_arm_controller
+    joints:
+      - j_shoulder_r
+      - j_high_arm_r
+      - j_low_arm_r
+      - j_wrist_r
+      - j_gripper_r
+  - name: fake_head_controller
+    joints:
+      - j_pan
+      - j_tilt
+  - name: fake_left_leg_controller
+    joints:
+      - j_pelvis_l
+      - j_thigh1_l
+      - j_thigh2_l
+      - j_tibia_l
+      - j_ankle1_l
+      - j_ankle2_l
+  - name: fake_right_leg_controller
+    joints:
+      - j_pelvis_r
+      - j_thigh1_r
+      - j_thigh2_r
+      - j_tibia_r
+      - j_ankle1_r
+      - j_ankle2_r
