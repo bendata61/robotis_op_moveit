@@ -1,5 +1,5 @@
 controller_list:
- - name: robotis_op/left_arm_traj_controller
+ - name: darwin/left_arm_traj_controller
    action_ns: follow_joint_trajectory
    type: FollowJointTrajectory
    default: true
@@ -10,7 +10,7 @@ controller_list:
       - j_wrist_l
       - j_gripper_l
 
- - name: robotis_op/right_arm_traj_controller
+ - name: darwin/right_arm_traj_controller
    action_ns: follow_joint_trajectory
    type: FollowJointTrajectory
    default: true
@@ -21,7 +21,7 @@ controller_list:
       - j_wrist_r
       - j_gripper_r
 
- - name: robotis_op/left_leg_traj_controller
+ - name: darwin/left_leg_traj_controller
    action_ns: follow_joint_trajectory
    type: FollowJointTrajectory
    default: true
@@ -33,7 +33,7 @@ controller_list:
       - j_ankle1_l
       - j_ankle2_l
 
- - name: robotis_op/right_leg_traj_controller
+ - name: darwin/right_leg_traj_controller
    action_ns: follow_joint_trajectory
    type: FollowJointTrajectory
    default: true
@@ -45,7 +45,7 @@ controller_list:
       - j_ankle1_r
       - j_ankle2_r
 
- - name: robotis_op/head_traj_controller
+ - name: darwin/head_traj_controller
    action_ns: follow_joint_trajectory
    type: FollowJointTrajectory
    default: true
