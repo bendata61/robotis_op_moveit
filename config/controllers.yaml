@@ -7,8 +7,6 @@ controller_list:
       - j_shoulder_l
       - j_high_arm_l
       - j_low_arm_l
-      - j_wrist_l
-      - j_gripper_l
 
  - name: robotis_op/right_arm_traj_controller
    action_ns: follow_joint_trajectory
@@ -18,8 +16,6 @@ controller_list:
       - j_shoulder_r
       - j_high_arm_r
       - j_low_arm_r
-      - j_wrist_r
-      - j_gripper_r
 
  - name: robotis_op/left_leg_traj_controller
    action_ns: follow_joint_trajectory

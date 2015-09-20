@@ -6,10 +6,10 @@
   <arg name="robot_description" default="robot_description"/>
 
   <!-- Load universal robot description format (URDF) -->
-  <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find robotis_op_description)/urdf/darwin.urdf"/>
+  <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find robotis_op_description)/urdf/robotis_op.urdf"/>
 
   <!-- The semantic description that corresponds to the URDF -->
-  <param name="$(arg robot_description)_semantic" textfile="$(find robotis_op_moveit)/config/darwinOP.srdf" />
+  <param name="$(arg robot_description)_semantic" textfile="$(find robotis_op_moveit)/config/robotis_op.srdf" />
   
   <!-- Load updated joint limits (override information from URDF) -->
   <group ns="$(arg robot_description)_planning">

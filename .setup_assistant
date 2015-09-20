@@ -1,8 +1,8 @@
 moveit_setup_assistant_config:
   URDF:
     package: robotis_op_description
-    relative_path: urdf/darwin.urdf
+    relative_path: urdf/robotis_op.urdf
   SRDF:
-    relative_path: config/darwinOP.srdf
+    relative_path: config/robotis_op.srdf
   CONFIG:
-    generated_timestamp: 1440583312
+    generated_timestamp: 1441876936
